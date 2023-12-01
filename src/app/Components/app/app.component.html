@@ -1,0 +1,30 @@
+<html>
+<body>
+  <h1>Mini-Slack  </h1>
+
+  <div class="content">
+
+
+<div *ngIf="this.UserService.user">
+    <app-threads></app-threads>
+  </div>
+
+  <div *ngIf="!this.UserService.user" class="babi">
+
+    <div class="enter">
+    <input type="text" [(ngModel)] = "this.username" class="I3" placeholder="Entrer votre nom d'utilisateur:">
+  </div>
+
+      <div>
+    <button type="submit" (click)="this.UserService.login(this.username)" class="b4">connexion</button>
+  </div>
+
+  </div>
+
+</div>
+</body>
+</html>
+ 
+
+
+

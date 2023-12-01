@@ -1,0 +1,26 @@
+<body>
+    <div class="generale">
+<p>Liste des threads</p>
+
+<div class="side" *ngFor="let thread of threads">
+    <button (click)="deleteThread(thread.id)" class="b5">Supprimer</button>
+    <button (click)="selectThread(thread)" class="b1">{{thread.label}}</button>
+</div>
+
+<div class="messageList" *ngFor="let message of messages"> 
+    <button (click)="deleteMessage(message.id)" class="b5">Supprimer</button>
+
+    <app-messages [message]="message" >
+    </app-messages>
+</div>
+
+<div class="messageForm">
+   
+        <input type="text" [(ngModel)]="message">
+        <button (click)="sendMessage()" class="b1">Envoyer</button>
+    
+</div>
+</div>
+</body>
+
+

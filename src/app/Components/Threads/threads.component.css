@@ -1,0 +1,163 @@
+.side {
+  background-color: #e6f7ff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+  width: 20%;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageList {
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+  width: 80%;
+  overflow: auto;
+  position: left;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Style pour la liste des threads */
+h2 {
+  color: #333;
+}
+
+.side {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+
+}
+.side:hover {
+  transform: scale(1.02);
+
+}
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #2980b9;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+/* Style pour la liste des messages */
+.messageList {
+  margin-bottom: 20px;
+  background-color: #e6f7ff;
+
+}
+
+/* Style pour le formulaire d'envoi de message */
+.messageForm {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.1s ease-in-out;
+
+}
+.messageForm:hover {
+  transform: scale(1.02);
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #e6f7ff;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+button:hover {
+  background-color: #e6f7ff;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+p{
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  background-color: #e6f7ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #ddd;
+
+}
+.b1:hover{
+  background-color: blue;
+
+}
+
+.b5{
+  background-color: #e6f7ff;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 90px;
+  
+
+}
+.b5:hover{
+  background-color: red;
+
+}

@@ -1,0 +1,48 @@
+.enter{
+    display: flex;
+    margin-left: 520px;
+}
+.I3{
+    height: 30px;
+    margin-top: 11px;
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+.b4{
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 80px;
+}
+.b4:hover {
+    background-color: #2980b9; 
+  }
+  .enter2 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
+    color: #333333; 
+    
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 60px; 
+    color: #4534db; 
+    text-align: center; 
+    margin: 20px 0; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    padding-top: 120px;
+    margin-left: 70px;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+  }
+  .babi{
+    text-align: center;
+  }

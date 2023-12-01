@@ -1,0 +1,26 @@
+
+div {
+    background-color: #e6f7ff;
+    padding: 15px;
+
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  div:hover {
+    transform: scale(1.02);
+
+  }
+  
+  p {
+    margin: 15px 0;
+
+    color: #333;
+  }
+  
+  p:nth-child(3) {
+    color: #777;
+  }
+
+  
+  
+  
